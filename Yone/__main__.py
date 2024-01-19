@@ -32,7 +32,6 @@ from Yone import (
     BOT_USERNAME,
     LOGGER,
     OWNER_ID,
-    SULTAN,
     START_IMG,
     SUPPORT_CHAT,
     CHAT,
