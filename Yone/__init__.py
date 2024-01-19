@@ -37,15 +37,12 @@ if ENV:
 
     API_ID = int(os.environ.get("API_ID", "12227067"))
     API_HASH = os.environ.get("API_HASH", "b463bedd791aa733ae2297e6520302fe")
-    SULTAN = int(os.environ.get("SULTAN", "2105971379"))
     CHAT = os.environ.get("CHAT", "+jCS-YsVBVEE3NjQ1")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", "True")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", "PNNU99H3W9KDLKVM")
     DB_URI = os.environ.get("DATABASE_URL")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
-    EVENT_LOGS = os.environ.get("EVENT_LOGS","-1001908711819")
-    JOIN_LOGGER = os.environ.get("JOIN_LOGGER","-1001841879487")
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     LOAD = os.environ.get("LOAD", "").split()
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://DevuMusicBot:CBPNyUTcJCD1P8ZD@devumusicbot.sdqazcu.mongodb.net/?retryWrites=true&w=majority")
@@ -71,23 +68,23 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
     try:
-        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
+        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "5360305806").split())
         DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "5360305806").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "").split())
+        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "5360305806").split())
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "").split())
+        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "5360305806").split())
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "").split())
+        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "5360305806").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
