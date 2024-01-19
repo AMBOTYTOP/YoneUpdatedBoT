@@ -1,0 +1,41 @@
+{
+    "name": "yone Robot",
+    "description": "Telegram Group Management Bot.",
+    "logo": "https://te.legra.ph/file/49c43e6fc856534a09853.jpg",
+    "keywords": [
+       "telegram",
+       "modular",
+       "group",
+       "manager"
+    ],   
+ "repository": "https://github.com/Noob-yone/Yone",
+ "stack": "heroku-22",
+ "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "env": {
+    "ALLOW_EXCL": {
+       "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+       "value": "True"
+    },
+    "DEL_CMDS": {
+       "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+       "value": "True"
+    },
+    "ENV": {
+       "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+       "required": true,
+       "value": "True"
+    },
+    "TOKEN": {
+       "description": "Get bot token from @BotFather on TG",
+       "required": true,
+       "value": ""
+    }
+ }
+}
