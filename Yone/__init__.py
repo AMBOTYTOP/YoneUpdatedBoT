@@ -112,7 +112,6 @@ else:
     CHAT = Config.CHAT
     TIME_API_KEY = Config.TIME_API_KEY
     WORKERS = Config.WORKERS
-    SULTAN = Config.SULTAN
     try:
         OWNER_ID = int(Config.OWNER_ID)
     except ValueError:
