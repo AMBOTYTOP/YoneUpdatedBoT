@@ -13,7 +13,7 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue
     from telegram.utils.helpers import escape_markdown
 
-    from Yone import LOGGER, dispatcher
+    from Yone import LOGGER, dispatcher, EVENT_LOGS
     from Yone.modules.helper_funcs.chat_status import user_admin
     from Yone.modules.sql import log_channel_sql as sql
 
