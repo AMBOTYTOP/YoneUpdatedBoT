@@ -41,7 +41,7 @@ if ENV:
     CHAT = os.environ.get("CHAT", "+jCS-YsVBVEE3NjQ1")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", "True")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
+    CASH_API_KEY = os.environ.get("CASH_API_KEY", "PNNU99H3W9KDLKVM")
     DB_URI = os.environ.get("DATABASE_URL")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     EVENT_LOGS = os.environ.get("EVENT_LOGS","-1001908711819")
@@ -51,13 +51,13 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://DevuMusicBot:CBPNyUTcJCD1P8ZD@devumusicbot.sdqazcu.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", ""
+        "START_IMG", "https://graph.org/file/41d20249ffdb1151b8870.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "AM_YTSUPPORT")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
-    TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", "9HK7J0H25AKQ")
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
