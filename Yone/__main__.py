@@ -33,6 +33,7 @@ from Yone import (
     LOGGER,
     OWNER_ID,
     START_IMG,
+    JOIN_LOGGER,
     SUPPORT_CHAT,
     CHAT,
     TOKEN,
@@ -1076,7 +1077,7 @@ def main():
                        ]
                 ]
                      )
-    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
+    if JOIN_LOGGER is not None and isinstance(JOIN_LOGGER, str):
         try:
             dispatcher.bot.send_photo(
                 f"@AM_YTSUPPORT",
