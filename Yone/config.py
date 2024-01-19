@@ -6,7 +6,6 @@ class Config(object):
     API_HASH = "b463bedd791aa733ae2297e6520302fe"
     TOKEN = "6629158067:AAE8SSkEMDhyTstiCA0hDYQWqpaLhFcDEbs"  
     OWNER_ID = 5360305806 
-    SULTAN = 2105971379
     CHAT = "+jCS-YsVBVEE3NjQ1"
     SUPPORT_CHAT = "AM_YTSUPPORT"
     START_IMG = "https://graph.org/file/41d20249ffdb1151b8870.jpg"
