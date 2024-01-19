@@ -59,7 +59,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", "5360305806"))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
