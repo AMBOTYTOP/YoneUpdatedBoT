@@ -22,7 +22,7 @@ from telegram.ext import (
 from telegram.utils.helpers import escape_markdown, mention_markdown
 
 import Yone.modules.sql.notes_sql as sql
-from Yone import DRAGONS, EVENT_LOGS, EVENT_LOGS, SUPPORT_CHAT, dispatcher
+from Yone import DRAGONS, EVENT_LOGS, SUPPORT_CHAT, dispatcher
 from Yone.modules.disable import DisableAbleCommandHandler
 from Yone.modules.helper_funcs.chat_status import connection_status, user_admin
 from Yone.modules.helper_funcs.misc import build_keyboard, revert_buttons
