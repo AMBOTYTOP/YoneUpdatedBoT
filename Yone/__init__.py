@@ -38,6 +38,7 @@ if ENV:
     API_ID = int(os.environ.get("API_ID", "12227067"))
     API_HASH = os.environ.get("API_HASH", "b463bedd791aa733ae2297e6520302fe")
     SULTAN = int(os.environ.get("SULTAN", "5360305806"))
+    CHAT = os.environ.get("CHAT", "+jCS-YsVBVEE3NjQ1")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", "True")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
