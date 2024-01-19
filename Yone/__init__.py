@@ -43,6 +43,7 @@ if ENV:
     CASH_API_KEY = os.environ.get("CASH_API_KEY", "PNNU99H3W9KDLKVM")
     DB_URI = os.environ.get("DATABASE_URL")
     EVENT_LOGS = os.environ.get("EVENT_LOGS","-1001908711819")
+    JOIN_LOGGER = os.environ.get("JOIN_LOGGER","-1001841879487")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     LOAD = os.environ.get("LOAD", "").split()
